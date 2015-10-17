@@ -4,7 +4,7 @@ html{
 body{
     width: 515px;
     height: 750px;
-    margin: 4px 450px 45px 450px;
+    margin: 4px auto 45px auto;
     padding: 50px;
     line-height: 1.2;
     background-color: #fff;
