@@ -1,0 +1,30 @@
+html{
+    background: #eeeeee;
+}
+body{
+    width: 515px;
+    height: 750px;
+    margin: 4px 450px 45px 450px;
+    padding: 50px;
+    line-height: 1.2;
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 0 2px -1px;
+    }
+h1{
+    text-align: center;
+	}
+img{
+    height: 130px;
+    font-size: 100%;
+}
+ul{
+    line-height: 1.5;
+}
+.foto{	
+    text-align: center;
+}
+a.vk{
+    color: #0000ee;
+}
+
