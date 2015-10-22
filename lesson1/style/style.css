@@ -1,30 +1,24 @@
 html{
-    background: #eeeeee;
+    background: #eee;
 }
 body{
-    font-size: 20px;
-    font-style: normal;
+    font: 15px/20px serif;
     width: 515px;
-    height: auto;
     margin: 4px auto 45px;
     padding: 50px;
     background-color: #fff;
-    box-shadow: 0 0 16px -4px;
+    box-shadow: 0 0 3px 2px #CBCBCB;
 }
 h1{
-    margin: 0 auto;
     text-align: center;
 }
-span{
-        padding: 15px 15px ;
-        margin: 0px auto;
-}
+.work{
+    padding: 15px 15px ;
+    text-align: left;
+    }
 div{
     border-top: 1px solid black;
-    padding: 15px 15px;   
-}
-img{
-    height: 140px;
+    padding: 15px 15px; 
 }
 ul{
     line-height: 1.5;
