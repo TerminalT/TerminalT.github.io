@@ -1,0 +1,110 @@
+body{
+	background: #f9f9f9;
+}
+.wraper{
+	width: 968px;
+	height: 950px;
+	margin: 0px auto;
+	padding: 0px 45px;
+	box-shadow: 0 0 4px 2px #dbdbdb;
+	background-color: #FFF;
+	
+}
+.header{
+	padding-top: 50px;
+	margin-bottom: 40px;
+}
+h1{
+	margin: 0px;
+}
+a{
+	text-decoration: none;
+}
+.menu{
+	margin-top: 40px;
+	overflow: hidden;
+	position: relative;
+	background: #535353;/*Нужно выбрать градиент*/
+	font-size: 15px;
+}
+.menu li{
+	color: #FFFFFF;
+	line-height: 40px;
+	float: left;
+	list-style: none;
+	border: 1px solid #535353;
+}
+.menu a{
+	margin: 0px;
+	padding: 12px 25px;
+	color:#ffffff;
+}
+.menu a:hover{
+	border-left: 1px solid #838383;
+	background-color: #474747;
+}
+.sidebar ul{
+	padding-left: 0px;
+	margin-top: 0px;
+	width: 240px;
+	position: relative;
+	float: left;
+}
+.sidebar li{
+	list-style: none;
+	border: 1px solid #c8c8c8;
+}
+.sidebar-menu a{
+	margin-left: 0px;
+	line-height: 40px;
+	color: #656363;
+	padding: 11px 25px;	
+}
+.sidebar-menu a:hover{
+	background-color: #f9f9f9;
+	color: #2c2c2c;
+	width: auto;
+	padding-left: 40px;
+	
+}
+.product{
+	width: 680px;
+	float: right;
+	position: relative;
+}
+.velo{
+	padding: 50px 88px;
+	border: 1px solid #c8c8c8;
+}
+.text{
+	margin-top: 40px;
+	padding-left: 25px;
+	margin-bottom: 0px;
+
+}
+.footer{
+	margin-top: 60px;
+	background: #e1e1e1;
+	line-height: 40px;
+	width: 968px;
+	position: relative;
+	float: left;
+
+}
+.footer-menu{
+	margin: 0px;
+}
+.footer-menu li,a{
+	display: inline;
+	color: #747474;
+	padding-left: 25px;
+	list-style: none;
+
+}
+.underline{
+	text-decoration: underline;
+}
+.copyrite li .footer-menu{
+	text-align: right;
+
+}
