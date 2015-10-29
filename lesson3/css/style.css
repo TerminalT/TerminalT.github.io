@@ -1,21 +1,20 @@
 body{
 	background: #f9f9f9;
+	font: 13.5px Myriad Pro #2c2c2c;
 }
-.wraper{
+/*WRAPPER*/
+.wrapper{
 	width: 968px;
-	height: 950px;
 	margin: 0px auto;
 	padding: 0px 45px;
 	box-shadow: 0 0 4px 2px #dbdbdb;
 	background-color: #FFF;
-	
+	overflow:hidden;
 }
+/*HEADER*/
 .header{
 	padding-top: 50px;
 	margin-bottom: 40px;
-}
-h1{
-	margin: 0px;
 }
 a{
 	text-decoration: none;
@@ -24,87 +23,119 @@ a{
 	margin-top: 40px;
 	overflow: hidden;
 	position: relative;
-	background: #535353;/*Нужно выбрать градиент*/
-	font-size: 15px;
+	background:/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4c4c+0,595959+12,666666+25,474747+39,2c2c2c+50,000000+51,111111+60,2b2b2b+76,1c1c1c+91,131313+100;5e5e5e */
+background: rgb(76,76,76); /* Old browsers */
+background: -moz-linear-gradient(top,  rgb(76,76,76) 0%, rgb(89,89,89) 12%, rgb(102,102,102) 25%, rgb(71,71,71) 39%, rgb(44,44,44) 50%, rgb(0,0,0) 51%, rgb(17,17,17) 60%, rgb(43,43,43) 76%, rgb(28,28,28) 91%, rgb(19,19,19) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(76,76,76)), color-stop(12%,rgb(89,89,89)), color-stop(25%,rgb(102,102,102)), color-stop(39%,rgb(71,71,71)), color-stop(50%,rgb(44,44,44)), color-stop(51%,rgb(0,0,0)), color-stop(60%,rgb(17,17,17)), color-stop(76%,rgb(43,43,43)), color-stop(91%,rgb(28,28,28)), color-stop(100%,rgb(19,19,19))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgb(76,76,76) 0%,rgb(89,89,89) 12%,rgb(102,102,102) 25%,rgb(71,71,71) 39%,rgb(44,44,44) 50%,rgb(0,0,0) 51%,rgb(17,17,17) 60%,rgb(43,43,43) 76%,rgb(28,28,28) 91%,rgb(19,19,19) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgb(76,76,76) 0%,rgb(89,89,89) 12%,rgb(102,102,102) 25%,rgb(71,71,71) 39%,rgb(44,44,44) 50%,rgb(0,0,0) 51%,rgb(17,17,17) 60%,rgb(43,43,43) 76%,rgb(28,28,28) 91%,rgb(19,19,19) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgb(76,76,76) 0%,rgb(89,89,89) 12%,rgb(102,102,102) 25%,rgb(71,71,71) 39%,rgb(44,44,44) 50%,rgb(0,0,0) 51%,rgb(17,17,17) 60%,rgb(43,43,43) 76%,rgb(28,28,28) 91%,rgb(19,19,19) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgb(76,76,76) 0%,rgb(89,89,89) 12%,rgb(102,102,102) 25%,rgb(71,71,71) 39%,rgb(44,44,44) 50%,rgb(0,0,0) 51%,rgb(17,17,17) 60%,rgb(43,43,43) 76%,rgb(28,28,28) 91%,rgb(19,19,19) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
 }
 .menu li{
-	color: #FFFFFF;
 	line-height: 40px;
-	float: left;
 	list-style: none;
-	border: 1px solid #535353;
+	
+	float: left;
 }
 .menu a{
-	margin: 0px;
-	padding: 12px 25px;
+	padding-left: 25px;
+	padding-right: 25px;
 	color:#ffffff;
+	display: block;
+	font: 15px Myriad Pro #2c2c2c;
+	border: 2px solid transparent;
 }
 .menu a:hover{
 	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
 	background-color: #474747;
 }
-.sidebar ul{
-	padding-left: 0px;
-	margin-top: 0px;
-	width: 240px;
+/*MAIN*/
+.main{
+	width: 100%;
+	float: left;
 	position: relative;
+}
+.sidebar{
+	width: 240px;
 	float: left;
 }
 .sidebar li{
+	padding-left: 0;
 	list-style: none;
 	border: 1px solid #c8c8c8;
+	border-top: 0px solid #c8c8c8
 }
-.sidebar-menu a{
-	margin-left: 0px;
-	line-height: 40px;
-	color: #656363;
-	padding: 11px 25px;	
-}
-.sidebar-menu a:hover{
-	background-color: #f9f9f9;
-	color: #2c2c2c;
-	width: auto;
-	padding-left: 40px;
-	
-}
-.product{
-	width: 680px;
-	float: right;
-	position: relative;
-}
-.velo{
-	padding: 50px 88px;
-	border: 1px solid #c8c8c8;
-}
-.text{
-	margin-top: 40px;
-	padding-left: 25px;
-	margin-bottom: 0px;
-
-}
-.footer{
-	margin-top: 60px;
-	background: #e1e1e1;
-	line-height: 40px;
-	width: 968px;
-	position: relative;
-	float: left;
-
-}
-.footer-menu{
+.sidebar-menu{
+	padding: 0px;
 	margin: 0px;
 }
-.footer-menu li,a{
-	display: inline;
-	color: #747474;
+.sidebar-menu:first-child{
+	border-top: 1px solid #c8c8c8;
+}
+.sidebar-menu a{
 	padding-left: 25px;
-	list-style: none;
+	color: #656363;
+	line-height: 40px;
+	display: block;
+}
+.sidebar-menu a:hover{
+	background: #f9f9f9;
+	width: auto;
+	padding-left: 40px;	
+}
+.content{
+	width: 680px;
+	float: right;
+}
+.velo{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border: 1px solid #c8c8c8;
+	background: #fff;
+	text-align: center;
+}
+p{
+	margin-bottom: 15px;
+}
+.text{
+	padding-left: 25px;
+	padding-top: 40px;
+}
+/*FOOTER*/
+.footer{
+	height: 40px;
+	width: 100%;
+	
+	float: left;
+	margin: 60px 0;	
+}
+.footer-menu{
+	background: #e1e1e1;
+}
+.footer-menu li{
+	padding-left: 25px;
+	padding-right: 25px;
+	display: inline;
+	line-height: 40px;
+}
+.footer-menu p{	
+	float: right;
+	color: #2c2c2c ;
+	padding: 11px 25px;
+	margin:auto;
+
+
 
 }
-.underline{
+.footer-menu a{
+	color: #2c2c2c;
+
+}
+.footer-menu a:hover{
 	text-decoration: underline;
-}
-.copyrite li .footer-menu{
-	text-align: right;
 
 }
+
