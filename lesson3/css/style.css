@@ -1,6 +1,13 @@
 body{
 	background: #f9f9f9;
-	font: 13.5px Myriad Pro #2c2c2c;
+	font: 13px/21px Myriad Pro;
+	color: #2c2c2c;
+}
+a{
+	text-decoration: none;
+}
+p{
+	margin-bottom: 15px;
 }
 /*WRAPPER*/
 .wrapper{
@@ -16,10 +23,8 @@ body{
 	padding-top: 50px;
 	margin-bottom: 40px;
 }
-a{
-	text-decoration: none;
-}
 .menu{
+	height: 40px;
 	margin-top: 40px;
 	overflow: hidden;
 	position: relative;
@@ -30,18 +35,16 @@ background: linear-gradient(rgb(76,76,76) 0%, rgb(89,89,89) 12%, rgb(102,102,102
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
 }
 .menu li{
-	line-height: 40px;
 	list-style: none;
-	
 	float: left;
 }
 .menu a{
-	padding-left: 25px;
-	padding-right: 25px;
-	color:#ffffff;
+	padding-left: 30px;
+	padding-right: 30px;
+	color:#fff;
 	display: block;
-	font: 15px Myriad Pro #2c2c2c;
-	border: 2px solid transparent;
+	font: 15px/37px Myriad Pro;
+	border: 1px solid transparent;
 }
 .menu a:hover{
 	border-left: 1px solid #838383;
@@ -51,23 +54,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 /*MAIN*/
 .main{
 	width: 100%;
-	position: relative;
+	overflow: hidden;
 }
+/*SIDEBAR*/
 .sidebar{
 	width: 240px;
 	float: left;
 }
 .sidebar li{
-	padding-left: 0;
 	list-style: none;
 	border: 1px solid #c8c8c8;
-	border-top: 0px solid #c8c8c8
+	border-top: 0px;
 }
 .sidebar-menu{
 	padding: 0px;
 	margin: 0px;
 }
-.sidebar-menu:first-child{
+.sidebar-menu li:first-child{
 	border-top: 1px solid #c8c8c8;
 }
 .sidebar-menu a{
@@ -80,18 +83,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 	background: #f9f9f9;
 	padding-left: 40px;	
 }
+/*CONTENT*/
 .content{
 	width: 680px;
 	float: right;
 }
-.velo{
+.item-image{
 	padding-top: 50px;
 	padding-bottom: 50px;
 	text-align: center;
 	border: 1px solid #c8c8c8;
-}
-p{
-	margin-bottom: 15px;
 }
 .text{
 	padding-left: 25px;
@@ -100,24 +101,29 @@ p{
 /*FOOTER*/
 .footer{
 	height: 40px;
-	width: 100%;
-	float: left;
-	margin: 60px 0;	
+	width: 968px;
+	margin: 60px 0;
+	position: relative;
+	background: #e1e1e1;
 }
 .footer-menu{
-	background: #e1e1e1;
+	line-height: 40px;
+	margin: 0px;
+	width: 60%;
+	overflow: hidden;
+	float: left;
 }
 .footer-menu li{
 	padding-left: 25px;
 	padding-right: 25px;
 	display: inline;
-	line-height: 40px;
 }
-.footer-menu p{	
+.footer p{	
+	width: 17%;
 	float: right;
-	color: #2c2c2c ;
-	padding: 11px 25px;
-	margin:auto;
+	font:13px/39px Myriad Pro;
+	padding: 0px;
+	margin: 0px;
 }
 .footer-menu a{
 	color: #2c2c2c;
