@@ -141,14 +141,14 @@ ul li:hover ul {
 	position: relative;
 	overflow: hidden;
 }
-.colums1{
+.column1{
 	width: 210px;
 	background: #edeef0;
 	float: left;
 	border: 1px solid #c7cacf;
 	text-align: center;
 }
-.colums2{
+.column2{
 	width: 210px;
 	background: #edeef0;
 	float: right;
