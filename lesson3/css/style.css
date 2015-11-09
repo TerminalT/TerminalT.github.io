@@ -45,8 +45,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', end
 	float: left;
 }
 .menu a{
-	padding-left: 30px;
-	padding-right: 30px;
+	padding: 0 30px;
 	color:#fff;
 	display: block;
 	font: 15px/37px Myriad Pro;
