@@ -65,9 +65,22 @@ background: -ms-linear-gradient(top,  rgba(75,75,75,1) 0%,rgba(70,70,70,1) 23%,r
 background: linear-gradient(to bottom,  rgba(75,75,75,1) 0%,rgba(70,70,70,1) 23%,rgba(51,51,51,1) 77%,rgba(46,46,46,1) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b4b4b', endColorstr='#2e2e2e',GradientType=0 ); /* IE6-9 */
 }
+.active{
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4b4b4b+0,464646+23,333333+77,2e2e2e+100 */
+background: rgb(75,75,75); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(75,75,75,1) 0%, rgba(70,70,70,1) 23%, rgba(51,51,51,1) 77%, rgba(46,46,46,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(75,75,75,1)), color-stop(23%,rgba(70,70,70,1)), color-stop(77%,rgba(51,51,51,1)), color-stop(100%,rgba(46,46,46,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(75,75,75,1) 0%,rgba(70,70,70,1) 23%,rgba(51,51,51,1) 77%,rgba(46,46,46,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(75,75,75,1) 0%,rgba(70,70,70,1) 23%,rgba(51,51,51,1) 77%,rgba(46,46,46,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(75,75,75,1) 0%,rgba(70,70,70,1) 23%,rgba(51,51,51,1) 77%,rgba(46,46,46,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(75,75,75,1) 0%,rgba(70,70,70,1) 23%,rgba(51,51,51,1) 77%,rgba(46,46,46,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b4b4b', endColorstr='#2e2e2e',GradientType=0 ); /* IE6-9 */
+}
 /*MAIN*/
 .main{
-	width: 968px;
+	width: 100%;
 	overflow: hidden;
 }
 /*SIDEBAR*/
@@ -103,7 +116,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b4b4b', end
 	float: right;
 }
 .item-image{
-	padding: 50px 0px 50px 0px;
+	padding: 50px 0px;
 	text-align: center;
 	border: 1px solid #c8c8c8;
 }
@@ -125,8 +138,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b4b4b', end
 	float: left;
 }
 .footer-menu li{
-	padding-left: 25px;
-	padding-right: 25px;
+	padding:0 25px;
 	display: inline;
 }
 .footer p{	
