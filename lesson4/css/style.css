@@ -1,17 +1,15 @@
 
-html{
- background: url('../img/bg.png') repeat-x #108faf;
-}
 body{
-	font: 14px/24px tahoma;
+	font: 14px/24px Tahoma, sans-serif;
 	color: #424c43;
+	background: url('../img/bg.png') repeat-x #0c739f;
 }
 .wrapper{
 	width: 1000px;
 	margin: 0px auto;
 }
 .holder{
-	box-shadow: 0px 0px 6px 0px rgba(85,85,85,1);
+	box-shadow: 0px 0px 6px 1px rgba(85,85,85,1);
 }
 /*HEADER*/
 .header{
@@ -22,43 +20,56 @@ body{
 }
 .logo{
 	float: left;
+	margin-left: 15px;
+	
 }
 .contacts{
-	height: 70px;
-	width: 130px;
+	width: 330px;
 	float: right;
-	margin-right: 32px;
-	margin-top: 10px;
-	float: right;
+	padding: 10px 25px 0 125px;
 }
 ul{
-	padding: 0px;
+	padding-left: 0px;
 	list-style: none;
+	margin: 0px;
 }
 .contacts li{
-	font: 12px Tahoma;
+	font: 12px/16px Tahoma, sans-serif;
 	color:#128aa7;
 	list-style: none;
+	text-align: right;
+	padding-left: 125px;
 }
-.countries{
-	width: 340px;
-	position: absolute;
-	bottom: 10px;
-	right: 35px;
-	height: 30px;
+.contacts a{
+	text-decoration: none;
+	color:#128aa7;
+}
+.countries {
+    margin-top: 38px;
+    width: 340px;
+    float: right;
+    padding-right: 24px;
+}
+.countries span{
+	display: block;
+	margin-top: -11px;
 }
 .countries li{
-	display: inline;
-	position: relative;
+	display: inline-block;
+	text-align: center;
+	padding: 0 4px;
 }
 .countries li a{
-	padding:0px 15px 0px 0px;
 	font-size: 10px;
 	color: #128aa7;
 }
+.countries li a:hover{
+	font-size: 10px;
+	color: #128aa7;
+	text-decoration: none;
+}
 .countries img{
-	position: absolute;
-	bottom: 15px;
+	padding-left: -41px;	
 }
 .banner{
 	height: 236px;
@@ -69,7 +80,7 @@ ul{
 	border-bottom: 1px solid #000000;
 	width: 100%;
 	height: 30px;
-	box-shadow: 0px 0px 4px 0px rgba(85,85,85,1);
+	position: relative;	
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#373737+0,303030+100 */
 background: rgb(55,55,55); /* Old browsers */
 background: -moz-radial-gradient(center, ellipse cover,  rgb(55,55,55) 0%, rgb(48,48,48) 100%); /* FF3.6+ */
@@ -79,23 +90,30 @@ background: -o-radial-gradient(center, ellipse cover,  rgb(55,55,55) 0%,rgb(48,4
 background: -ms-radial-gradient(center, ellipse cover,  rgb(55,55,55) 0%,rgb(48,48,48) 100%); /* IE10+ */
 background: radial-gradient(ellipse at center,  rgb(55,55,55) 0%,rgb(48,48,48) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373737', endColorstr='#303030',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-	
 }
 .nav{
-	margin: 0px;
 	height: 30px;
+	padding-left: 30px;
+	-webkit-box-shadow: 0px 5px 17px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 5px 17px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 5px 17px 0px rgba(0,0,0,0.75);
 }
 .nav li{
 	float: left;
 	padding: 0px 30px;
 	position: relative;
 	height: 30px; 
-	cursor: pointer;
 	z-index: 1;
+}
+.nav li .triangle:after{
+	content: url('../img/triangle.png');
+	position: absolute;
+	top: 5px;
+	right: 5px;
 }
 .nav a{
 	text-decoration: none;
-	font: 14px/28px Tahoma;
+	font: 14px/30px Tahoma, sans-serif;
 	color: #FFF;
 	display: block;
 }
@@ -105,6 +123,9 @@ ul li ul {
 	left: 0;
 	top: 30px;
 	background: #353535;
+	-webkit-box-shadow: 0px 5px 17px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 5px 17px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 5px 17px 0px rgba(0,0,0,0.75);
 }
 ul li:hover ul {
 	display: block;
@@ -113,6 +134,7 @@ ul li:hover ul {
 .main{
     width: 100%;
     border-bottom: 3px solid #031d28;
+    background: url('../img/main.png') repeat-y;
 }
 .main:after{
     content:'';
@@ -120,22 +142,16 @@ ul li:hover ul {
     clear:both;
 }
 .content{
-	background: #fff;
-	position: relative;
-	overflow: hidden;
-}
-.aside1{
-	width: 210px;
-	background: #edeef0;
+	width: 581px;
+	background:100% #fff;
 	float: left;
 	border: 1px solid #c7cacf;
-	text-align: center;
+	padding-bottom: 0px;
 }
-.aside2{
-	width: 210px;
+.aside{
+	width: 208px;
 	background: #edeef0;
-	float: right;
-	border: 1px solid #c7cacf;
+	float: left;
 	text-align: center;
 }
 h2{
@@ -146,8 +162,8 @@ h2{
 }
 /*FOOTER*/
 .footer{
-	height: 30px;
+	clear: both;
 	text-align: center;
 	color: white;
-	font: 12px Tahoma;
+	font: 12px/35px Tahoma, sans-serif;
 }
