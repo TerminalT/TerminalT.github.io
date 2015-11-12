@@ -1,0 +1,49 @@
+
+ table{
+	width: 510px;
+	height: 550px;
+	border:  #fff;
+	border-collapse: collapse;
+}
+td{
+	border: 10px solid #2b2929;
+	border-color: url(''../img/black.png);
+}
+.first{
+	width: 120px;
+}
+.three{
+	width: 205px;
+}
+.five{
+	width: 170px;
+	background: url(../img/yellow.png);
+}
+.seven{
+	height:120px;
+	width: 55px;
+}
+.eight{
+	background: url(../img/red.png);
+}
+.eleven,.twentyfour{
+	background: url(../img/yellow.png);
+}
+.seventeen{
+	height: 130px;
+}
+.nineteen {
+	width: 70px;	
+	height: 70px;
+	background: url(../img/black.png);
+}
+.twentyfive{
+	height: 65px;
+	background: url(../img/black.png);
+}
+.twentysix, .twenty, .thirtythree {
+	background: url(../img/black.png);
+}
+.twentyeight{
+	background: url(../img/blue.png);
+}
