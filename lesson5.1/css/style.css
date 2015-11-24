@@ -7,7 +7,7 @@
 }
 td{
 	border: 10px solid #2b2929;
-	border-color: url(''../img/black.png);
+	border-color: black;
 }
 .first{
 	width: 120px;
@@ -17,17 +17,17 @@ td{
 }
 .five{
 	width: 170px;
-	background: url(../img/yellow.png);
+	background: #ffe758;
 }
 .seven{
 	height:120px;
 	width: 55px;
 }
 .eight{
-	background: url(../img/red.png);
+	background: #fb5b3e;
 }
 .eleven,.twentyfour{
-	background: url(../img/yellow.png);
+	background: #ffe758;
 }
 .seventeen{
 	height: 130px;
@@ -35,15 +35,15 @@ td{
 .nineteen {
 	width: 70px;	
 	height: 70px;
-	background: url(../img/black.png);
+	background: #0d1714;
 }
 .twentyfive{
 	height: 65px;
-	background: url(../img/black.png);
+	background: #0d1714;
 }
 .twentysix, .twenty, .thirtythree {
-	background: url(../img/black.png);
+	background: #0d1714;
 }
 .twentyeight{
-	background: url(../img/blue.png);
+	background: #0b4783;
 }
