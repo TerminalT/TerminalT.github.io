@@ -32,12 +32,15 @@ p{
 	background: url('../img/bg-menu.png') 0 0 repeat-x;
 	position: relative;
 }
-.nav{
+.header_nav{
 	height: 36px;
 	margin: 0px;
 	float: left;
 	margin-left: 440px;
 	padding:0
+}
+.nav{
+	height: 36px;
 }
 .nav li{
 	list-style: none;
@@ -50,17 +53,21 @@ p{
 	display: block;
 	color: #60b5ed;
 }
-.nav>ul:after{
+.header_nav:after{
+	content: "";
+	position: relative;
+	float: right;
 	width: 1px;
-	color: #fff;
-	height: 30px;
+	height: 28px;
+	background-color: #60b5ed;
+	top: -32px;
 }
 .nav a:hover{
 	color: #fff;
 	background: #4eabda;
 }
 .aside{
-	width: 350px;
+	width: 30%;
 	height: 36px;
 	float: right;
 	line-height: 36px;
