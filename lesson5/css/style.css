@@ -78,11 +78,10 @@ p{
 	text-decoration: underline;
 }
 .minhas{
-	width: 155px;
+	padding:  0 24px 0 40px;
 	float: left;
 	position: relative;
 	background: url('../img/flag.jpg') 0 0  no-repeat;
-	background-position: left;
 }
 .flag{
 	position: absolute;
@@ -90,7 +89,6 @@ p{
 	top: 0px;
 }
 .ola{
-	display: block;
 	float: right;
 	margin-right: 8px;
     padding: 0px 12px;
