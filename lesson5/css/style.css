@@ -3,12 +3,9 @@
 	padding: 0;
 }
 body{
-	padding: 0px;
-	background-color: #bfbfbf;
 	font: 14px/16px Helvetica Neue, Tahoma, sans-serif;
 	color: #fff;
-	margin: 0px auto;
-	width: 100%;
+	margin: 0;
 }
 .wrapper{
 	width: 100%;
@@ -32,49 +29,45 @@ p{
 	background: url('../img/bg-menu.png') 0 0 repeat-x;
 	position: relative;
 }
-.header_nav{
+.nav{
 	height: 36px;
-	margin: 0px;
 	float: right;
-	padding:0
 }
 .nav li{
 	list-style: none;
 	float: left;
-	padding-left: 8px;
 }
 .nav a{
 	text-decoration: none;
-	padding: 10px;
+	padding: 10px 26px 10px 0px;
 	display: block;
 	color: #60b5ed;
 }
-.header_nav:after{
+.nav:after{
 	content: "";
 	position: relative;
 	float: right;
 	width: 1px;
 	height: 28px;
 	background-color: #60b5ed;
-	top: -32px;
+	top: 4px;
 }
 .nav a:hover{
 	color: #fff;
 	background: #4eabda;
 }
-.aside{
+.links{
 	padding-left: 10px;
 	float: right;
 	line-height: 36px;
 	text-align: center;
 	position: relative;
 }
-.aside a{
+.links a{
 	text-decoration: none;
 	color: #fff;
-	display: inline-block;
 }
-.aside a:hover{
+.links a:hover{
 	text-decoration: underline;
 }
 .minhas{
@@ -171,7 +164,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b5699', end
 /*CONTAINER*/
 .container{
 	margin: auto;
-	text-align: center;
 	width: 275px;
 }
 .lines{
@@ -184,21 +176,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b5699', end
 	position: relative;
 	float: left;
 	height: 0px;
-	width: 121px;
+	width: 125px;
 	border-top: 1px solid #666666;
 	border-bottom: 1px solid #000000;
-	top:8px;
-	left: -3px;
+	top: 8px;
+	right: 3px;
 }
 .lines::after{
 	content: " ";
 	position: relative;
 	float: right;
 	height: 0px;
-	width: 121px;
+	width: 125px;
 	border-top: 1px solid #666666;
 	border-bottom: 1px solid #000000;
-	top:8px;
+	top: 8px;
+	left: -3px;
 }
 .input{
     margin-bottom: 9px;
@@ -208,7 +201,7 @@ input[type="text"],
 input[type="email"], input[type="password"] {
 	height: 34px;
 	width: 250px;
-    padding: 0 7px 0 14px;
+    padding: 0 10px 0 14px;
     color: white;
     border: none;
     border-bottom: 1px solid #494949;
@@ -253,11 +246,11 @@ input[type="checkbox"]{
 }
 .footer p{
 	font-size: 11px;
-	line-height: 16px;
+	line-height: 14px;
 }
 .account{
 	text-align: center;
-	height: 60px;
+	height: 55px;
 }
 button[type="submit"].account{
 	padding: 0 20px;
