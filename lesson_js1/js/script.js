@@ -12,9 +12,4 @@ function pow(x, n) {
 }
 var powResult = pow(x, n);
 
-if (n < 0) {
-	alert('Степень ' + n +
-		'не поддерживается, введите целую степень, большую 0');
-} else {
-	console.log('Число' + x + ' в ' + n + ' степени =', powResult)
-}
+	console.log('Число ' + x + ' в ' + n + ' степени =', powResult)
